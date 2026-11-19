@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anik Paul – Electrical &amp; Electronic Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f2f4f3;
+      --panel: #ffffff;
+      --ink: #0d1f2d;
+      --muted: #52636f;
+      --line: #d5dcdf;
+      --cu: #c2571a;
+      --teal: #0f766e;
+      --chip: #e6efed;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.65 Inter, system-ui, -apple-system, sans-serif;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Bricolage Grotesque', Inter, sans-serif;
+      line-height: 1.15;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--cu);
+      outline-offset: 3px;
+    }
+
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 56px;
+    }
+
+    aside {
+      position: sticky;
+      top: 0;
+      align-self: start;
+      padding: 48px 0;
+    }
+
+    .photo {
+      position: relative;
+      width: 200px;
+      height: 240px;
+      border-radius: 100px 100px 16px 16px;
+      background: #0d1f2d;
+      border: 3px solid var(--cu);
+      overflow: hidden;
+      display: block;
+    }
+
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+    }
+
+    aside h1 {
+      font-size: 30px;
+      margin: 24px 0 4px;
+    }
+
+    aside
